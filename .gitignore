@@ -1,0 +1,133 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+yarn.lock
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts.map
+
+# Jest
+coverage/
+jest-cache/
+jest-results.json
+
+
+# Local environment files
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Editor backups
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Misc
+tmp/
+.cache/
+.eslintcache
+.prettier-cache/
+stylelintcache/
+babel-cache/
+storybook-static/
+
+# React / Vite specific
+.vite/
+vite.config.timestamp*
+vite.config.js.timestamp*
+
+# ----------------------------------------
+# Node / React / TypeScript / Jest project
+# ----------------------------------------
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts.map
+
+# Jest
+coverage/
+jest-cache/
+jest-results.json
+
+# Playwright (si lo usas)
+test-results/
+playwright-report/
+blob-report/
+trace.zip
+*.trace.zip
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Editor backups
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Misc
+tmp/
+.cache/
+.eslintcache
+.prettier-cache/
+stylelintcache/
+babel-cache/
+storybook-static/
+
+# React / Vite specific
+.vite/
+vite.config.timestamp*
+vite.config.js.timestamp*
