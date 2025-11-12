@@ -47,7 +47,7 @@ describe("componente VehicleCard", () => {
     expect(screen.getByText(/eye color:/i)).toBeInTheDocument();
     expect(screen.getByText(/birth year:/i)).toBeInTheDocument();
     expect(screen.getByText(/gender:/i)).toBeInTheDocument();
-    expect(screen.getByText(/homeword:/i)).toBeInTheDocument();
+    expect(screen.getByText(/homeworld:/i)).toBeInTheDocument();
   });
 
   it("muestra la lista de vehículos cuando está disponible", () => {

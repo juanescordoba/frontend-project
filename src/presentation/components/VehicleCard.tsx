@@ -10,7 +10,7 @@ export const VehicleCard = ({ people }: { people: any }) => (
         <li data-testid="people-eye"><strong>eye color:</strong> {people.eye_color}</li>
         <li data-testid="people-birth"><strong>birth year:</strong> {people.birth_year}</li>
         <li data-testid="people-gender"><strong>gender:</strong> {people.gender}</li>
-        <li data-testid="people-homework"><strong>homeword:</strong> {people.homeworld}</li>
+        <li data-testid="people-homeworld"><strong>homeworld:</strong> {people.homeworld}</li>
       </ul>
   
       <div className="mt-4">
