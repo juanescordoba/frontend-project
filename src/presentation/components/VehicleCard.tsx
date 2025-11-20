@@ -16,9 +16,9 @@ export const VehicleCard = ({ people }: { people: any }) => (
       <div className="mt-4">
         <h3 className="font-semibold text-lg mb-1">🚗 Vehículos</h3>
         {people.vehiclesDetails.length > 0 ? (
-          <ul className="list-disc ml-4">
+          <ul data-testid="vehicle-list" className="list-disc ml-4">
             {people.vehiclesDetails.map((v: any, i: number) => (
-              <li data-testid="vehicle-list" key={i}>
+              <li  key={i}>
                 <strong>{v.name}</strong> — {v.model} - ({v.manufacturer}) - ({v.cost_in_credits})          
               </li>
             ))}
